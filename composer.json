@@ -1,0 +1,18 @@
+{
+	"name": "joshuabaker/craft-algolia",
+	"description": "Algolia search integration.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Joshua Baker",
+			"homepage": "https://joshuabaker.com/"
+		}
+	],
+	"require": {
+		"algolia/algoliasearch-client-php": "^1.12",
+		"composer/installers": "~1.0"
+	},
+	"config": {
+		"vendor-dir": "algolia/vendor"
+	}
+}
